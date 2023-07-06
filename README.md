@@ -1,2 +1,2 @@
-# projeto-friends
+# projeto-MarioBross
  apresentação dos personagens principais do Mario Bross
