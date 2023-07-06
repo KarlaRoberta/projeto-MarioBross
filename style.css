@@ -7,19 +7,18 @@
 }
 
 .imagem-principal{
-   width: 100%;
+  
    
 }
 
 .selecao-de-personagens{
-    background-color: #070505;
+   
 }
 
 .titulo{
-    color: white;
+   
 }
 
 .selecao-de-personagens ul{
-    display: flex;
-    justify-content: space-between;
+    
 }
