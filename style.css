@@ -15,9 +15,14 @@ body{
  background-color:black ;
 }
 
+.imagem-principal{
+    position: relative;
+    top: 4px;
+}
+
 body::before{
     content: '';
-    background-image: url(/src/img/f.jpg);
+    background-image: url(/src/img/f\ -\ Copia-dois.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -53,6 +58,7 @@ body::before{
     align-items: center;
     max-width: 585px;
     gap: 25px;
+    
 }
 
 .selecao-de-personagens .personagens .titulo{
@@ -70,7 +76,7 @@ body::before{
 }
 
 .lista-de-personagens .personagem.selecionado{
-    box-shadow: 0px 0px 24px 5px #6BA742;
+    box-shadow: 0px 0px 24px 5px #f2f2f2;
 }
 
 .personagem-selecionado{
@@ -79,20 +85,22 @@ body::before{
 }
 
 .personagem-selecionado .personagem-grande{
-    width: 430px;
-    height: 430px;
+    width: 450px;
+    height: 450px;
 }
 
 .personagem-selecionado .nome-personagem{
     border-bottom: 2px solid #6BA742;
+    width: 80%;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-left: 1em;
 }
 
 .personagem-selecionado .descricao-personagem{
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    margin-top: 20px;
-    width: 420px;
+    margin-top: 17px;
+    width: 400px;
 }
