@@ -12,7 +12,7 @@ ul{
 }
 
 body{
- background-color:black ;
+ background-image: url(./src/img/tt.jpg) ;
 }
 
 .imagem-principal{
@@ -22,7 +22,7 @@ body{
 
 body::before{
     content: '';
-    background-image: url(/src/img/f\ -\ Copia-dois.jpg);
+    background-image: url(./src/img/tela.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
