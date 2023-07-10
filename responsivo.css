@@ -43,3 +43,10 @@
 }
 
 }
+
+@media(max-width: 640px){
+    .personagem-selecionado .personagem-grande{
+        width: 250px;
+        height: 250px;
+    }
+}
