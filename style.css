@@ -89,8 +89,8 @@ body::before{
 }
 
 .personagem-selecionado .personagem-grande{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
 }
 
 .personagem-selecionado .nome-personagem{
